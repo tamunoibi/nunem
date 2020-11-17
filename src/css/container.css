@@ -1,0 +1,12 @@
+.container {
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+  max-width: 1500px;
+
+}
+.container-no-max {
+  width: 85%;
+  margin: auto;
+  overflow: hidden;
+}

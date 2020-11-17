@@ -1,0 +1,52 @@
+@import 'header.css';
+@import 'container.css';
+@import 'content.css';
+@import 'footer.css';
+@import 'helper.css';
+@import 'sectionA.css';
+@import 'sectionB.css';
+@import 'sectionC.css';
+
+:root {
+    --secondary: linear-gradient(89deg, rgb(16, 64, 97) 3%, rgb(104, 206, 245) 98%);
+    --primary:  #1C4764;
+    --tertiary: #16222A;
+    --semiPrimary: #F6F6F6;
+    --white: #FFFFFF;
+    --dim: rgba(255, 255, 255, 0.5);
+    --black: #000;
+    --base: #BDC3D1;
+    --textSecondar: #333333;
+    --textPrimary: #808080;;
+  }
+body {
+    padding: 0;
+    margin: 0;
+    font-size: min(max(1rem, 4vw), 14px);
+    color: var(--textSecondar);
+    background-color: var(--white);
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+.h3, h3 {
+    font-size: 24px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    line-height: 1.1;
+}
+a {
+    color: #058;
+    text-decoration: none;
+}
+p {
+    margin: 10px 0;
+}
