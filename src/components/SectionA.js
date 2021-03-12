@@ -8,9 +8,17 @@ const Link = ({ url, text, }) => {
 
     </div>)
 };
+// const Image = ({ source }) => {
+//     return (<div className='child'>
+//         <img src={source} />
+//     </div>)
+// };
 const Image = ({ source }) => {
-    return (<div className='child'>
-        <img src={source} />
+    return (
+    <div className='child child-parent'>
+        <div className=' child-img'>
+            <img src={source} />
+        </div>
     </div>)
 };
 const Content = ({ title, content, link }) => {
@@ -26,14 +34,15 @@ export default function SectionA() {
             <div className='carousel'>
 
                 <Container>
-
-                    <h1>MENAGET TECHNOLOGY CONSULTING</h1>
-                    <h2>Unlock your business potential and create immeasurable possibilities</h2>
-                
-                    <h4>We offer Professional Web Application Design and Development</h4>
-                    <h4>Mobile Application Development</h4>
-                    <h4>Data Science and Analytic Services</h4>
-                    <h4>Cloud Solutions</h4>
+                    {/* <div> */}
+                        <h1>MENAGET TECHNOLOGY CONSULTING</h1>
+                        <h2>Unlock your business potential and create immeasurable possibilities</h2>
+                    
+                        <h4>We offer Professional Web Application Design and Development</h4>
+                        <h4>Mobile Application Development</h4>
+                        <h4>Data Science and Analytic Services</h4>
+                        <h4>Cloud Solutions</h4>
+                    {/* </div> */}
                 </Container>
 
             </div>
@@ -53,7 +62,6 @@ export default function SectionA() {
                     <Link url='www.google.com' text='Hire A Service Agent' />
                     <Link url='www.google.com' text='Start A Project' />
                 </div>
-
             </Container>
 
         </div>

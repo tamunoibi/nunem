@@ -1,6 +1,5 @@
 @import 'header.css';
 @import 'container.css';
-@import 'content.css';
 @import 'footer.css';
 @import 'helper.css';
 @import 'sectionA.css';
@@ -25,6 +24,10 @@ body {
     font-size: min(max(1rem, 4vw), 14px);
     color: var(--textSecondar);
     background-color: var(--white);
+    box-sizing: border-box;
+    line-height: 1.42857143;
+}
+* {
     box-sizing: border-box;
 }
 body::-webkit-scrollbar {

@@ -12,7 +12,7 @@
 	.dns6{fill:none;stroke:#808080;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.dns7{fill:#FFFFFF;}
 	.dns8{fill:#FFFFFF;stroke:#808080;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.dns9{fill:#FFFFFF;stroke:#ED5485;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.dns9{fill:#FFFFFF;stroke:#68cef5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
 <circle class="dns0" cx="333" cy="326" r="319"/>
 <g>

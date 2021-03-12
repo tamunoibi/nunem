@@ -10,15 +10,19 @@ const textContent = [
     { title: 'DATA ANALYTICS', content: 'We utilize the power of our data analytics to increase the overall efficiency of your business. At Menaget, we help you optimize your data assets which reflects in how prompt and better you make decisions. We help you draft out ways of doing business efficiently with reduced costs via storing and analysing large amounts of data. At the end of the day, you can make better business decisions and analyse customers trends and satisfaction better, which can lead to new and better products and services.' },
 ];
 const Content = ({ title, content, link }) => {
-    return (<div className='child'>
-        <h4>{title}</h4>
-        <p>{content}</p>
-        {link && <a className='btn' href={link.url}>{link.text}</a>}
-    </div>)
+    return (
+        <div className='child'>
+            <h4>{title}</h4>
+            <p>{content}</p>
+            {link && <a className='btn' href={link.url}>{link.text}</a>}
+        </div>)
 };
 const Image = ({ source }) => {
-    return (<div className='child'>
-        <img src={source} />
+    return (
+    <div className='child child-parent'>
+        <div className=' child-img'>
+            <img src={source} />
+        </div>
     </div>)
 };
 
@@ -29,13 +33,13 @@ export default function SectionB() {
                 <div className='parent'>
 
 
-
                     <Content title='Cloud Services' content='We guarantee automated provisioning and monitoring of cloud stacks to improve service management and delivers a reliable user experience. We offer serves/storage systems to boost service delivery' link={{ text: 'Service Details', url: 'google.com' }} />
                     <Image source={train} />
+                    <hr className='hr' />
 
                     <Image source={db} />
                     <Content title='Application Development Servicess' content='We help businesses accelerate product releases by reducing time spent across all stages of the application development lifecycle using open source technologies, automation, our in-house built tools and licensed third party tools.' link={{ text: 'Learn More', url: 'www.google.com' }} />
-
+                    <hr className='hr' />
                     <Content title='Digital Marketing' content='We help you implement viable digital marketing tactics to effectively reach and engage your target customers online.' />
                     <Image source={blocks} />
 

@@ -8,7 +8,17 @@
   
   .sectionB .child,  .sectionA .child {
     width: 50%;
-    box-sizing: border-box;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  /* .child-parent {
+    background-color: red;
+
+  } */
+  .child-img {
+    width: 300px;
+    height: auto;
+    margin: auto;
   }
   .btn {
     letter-spacing: 0.02em;
@@ -34,7 +44,16 @@
 
   }
   .sectionB img,.sectionA img {
-    width: 500px;
-    height: auto;
+    /* width: 500px; */
+    width: 100%;
+    /* height: auto; */
+    text-align: center;
+
   }
-  
+  .hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+    width: 100vw;
+  }
